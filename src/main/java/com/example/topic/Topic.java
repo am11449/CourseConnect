@@ -1,5 +1,8 @@
 package com.example.topic;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "topics")
 public class Topic {
 
     private String id;
